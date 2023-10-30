@@ -1,0 +1,17 @@
+{
+  "name": "learnBlog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.17",
+    "@vuepress/plugin-pwa": "^1.9.10",
+    "@vuepress/plugin-search": "^1.9.10",
+    "vuepress": "^1.9.10",
+    "vuepress-theme-reco": "^1.6.17"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
