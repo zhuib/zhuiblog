@@ -1,4 +1,5 @@
 module.exports = {
+    base: "./",
         // 语言  
     locales: {
         '/': {
