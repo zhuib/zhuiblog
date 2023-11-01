@@ -38,6 +38,7 @@ module.exports = {
           { text: '生活',link: '/life/' },
           { text: '标签库', link: '/tags/' },
           { text: '关于', link:'/about/'},
+          { text: '任务', link:'http://www.iaminlearn.top'},
           { text: '链接',
             items: [
                 {text:'简书',link: 'https://www.jianshu.com/writer#/notebooks/53135816/notes/115891566/preview' },
