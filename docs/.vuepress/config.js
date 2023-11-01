@@ -1,5 +1,5 @@
 module.exports = {
-    base: "./",
+    // base: "./",
         // 语言  
     locales: {
         '/': {
@@ -19,6 +19,10 @@ module.exports = {
     },
     theme: 'reco',
     themeConfig: {
+    
+        cyberSecurityRecord: "粤ICP备2023123001号-1",
+        cyberSecurityLink: "https://beian.miit.gov.cn/",
+        startYear: 2023,
         type: 'blog',
         logo:"/img/painting.png",
         autohor: 'zhuib',
