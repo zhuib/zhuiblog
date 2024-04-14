@@ -1,5 +1,5 @@
 module.exports = {
-  base: "./",
+  base: "/zhuiblog/",
   // 语言
   locales: {
     "/": {
