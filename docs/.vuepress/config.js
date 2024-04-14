@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/zhuiblog/",
+  // base: "/zhuiblog/",
   // 语言
   locales: {
     "/": {
@@ -47,13 +47,13 @@ module.exports = {
       { text: "生活", link: "/life/" },
       { text: "标签库", link: "/tags/" },
       { text: "关于", link: "/about/" },
-      { text: "任务", link: "http://www.iaminlearn.top" },
+      { text: "任务", link: "http://zhuib.iaminlearn.top/ql" },
       {
         text: "链接",
         items: [
           {
             text: "简书",
-            link: "https://www.jianshu.com/writer#/notebooks/53135816/notes/115891566/preview",
+            link: "https://www.jianshu.com/u/3947b565c51c",
           },
           { text: "GitHub", link: "https://github.com/zhuib" },
           { text: "码云", link: "https://gitee.com/zhuib" },
