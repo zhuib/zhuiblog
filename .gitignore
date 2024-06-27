@@ -30,3 +30,15 @@
 *.msm
 *.msp
 *.txz
+
+**/node_modules
+target
+.gradle
+.idea
+.vscode
+.classpath
+.project
+.settings
+docs/dist
+build
+dist

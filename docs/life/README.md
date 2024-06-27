@@ -2,11 +2,9 @@
 title: 生活
 date: 2020-12-11 11:15:53
 permalink: /life/
-categories: 
-  - 前端
-  - JavaScript文章
-  - 三级目录
-tags: 
+categories:
+  - 生活
+tags:
   - 生活
 author: zhuib
 ---
@@ -17,10 +15,12 @@ aaaa
 aaa
 
 aa
-## 生活1
+
+## 生活 1
 
 aaa
-## 生活2
+
+## 生活 2
 
 aaaaa
 aaa

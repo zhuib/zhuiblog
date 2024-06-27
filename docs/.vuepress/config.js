@@ -6,7 +6,7 @@ module.exports = {
       lang: "zh-CN",
     },
   },
-  title: "zhuib blog",
+  title: "笔记展示",
   head: [
     ["link", { rel: "icon", href: "/img/painting.png" }],
     // 主题 移动端优化
