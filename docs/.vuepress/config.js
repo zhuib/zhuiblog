@@ -48,17 +48,6 @@ module.exports = {
       { text: "标签库", link: "/tags/" },
       { text: "关于", link: "/about/" },
       { text: "任务", link: "http://zhuib.iaminlearn.top/ql" },
-      {
-        text: "链接",
-        items: [
-          {
-            text: "简书",
-            link: "https://www.jianshu.com/u/3947b565c51c",
-          },
-          { text: "GitHub", link: "https://github.com/zhuib" },
-          { text: "码云", link: "https://gitee.com/zhuib" },
-        ],
-      },
     ],
     sidebar: {
       "/technology/": [
