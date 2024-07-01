@@ -9,18 +9,13 @@ tags:
 author: zhuib
 ---
 
-## 生活
+## 独木桥 一直走
+![alt text](./image.png)
+## 运动
+- 网球
 
-aaaa
-aaa
+![网球王子](./image-1.png)
+## 美食
+- 猪脚饭
 
-aa
-
-## 生活 1
-
-aaa
-
-## 生活 2
-
-aaaaa
-aaa
+![猪脚饭](./image-2.png)

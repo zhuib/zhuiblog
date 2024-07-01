@@ -43,13 +43,12 @@ module.exports = {
     timezoneOffset: 8 * 60 * 60 * 1000,
     nav: [
       { text: "首页", link: "/" },
-      { text: "技术", link: "/technology/" },
+      { text: "技术栈", link: "/technology/" },
       { text: "生活", link: "/life/" },
-      { text: "标签库", link: "/tags/" },
       { text: "关于", link: "/about/" },
       { text: "任务", link: "http://zhuib.iaminlearn.top/ql" },
     ],
-    sidebar: {
+    /*sidebar: {
       "/technology/": [
         {
           title: "传统文化",
@@ -73,7 +72,7 @@ module.exports = {
           ],
         },
       ],
-    },
+    },*/
     lastUpdated: "Last Updated",
   },
   plugins: [
