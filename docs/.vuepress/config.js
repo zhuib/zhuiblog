@@ -48,31 +48,28 @@ module.exports = {
       { text: "关于", link: "/about/" },
       { text: "任务", link: "http://zhuib.iaminlearn.top/ql" },
     ],
-    /*sidebar: {
-      "/technology/": [
+    sidebar: {
+      "/java/": [
         {
-          title: "传统文化",
-          collapsable: true,
-          children: [{ title: "素书", path: "/life/" }],
-        },
-      ],
-      "/life/": [
-        {
-          title: "Docker 应用",
+          title: "JVM",
           collapsable: true,
           children: [
-            {
-              title: "使用 Docker Compose 部署 Elasticsearch + Kibana",
-              path: "/technology/",
-            },
-            {
-              title: "使用 Dockerfile + Docker Compose 部署 Web 项目",
-              path: "/technology/",
-            },
+            { title: "字节码", path: "/java/jvm/byte/" },
+            { title: "类的加载", path: "/java/jvm/load/" },
+            { title: "运行时内存", path: "/java/jvm/memery/" },
+            { title: "对象内存布局", path: "/java/jvm/objectlayout/" },
+            { title: "执行引擎", path: "/java/jvm/engine/" },
+            { title: "垃圾回收", path: "/java/jvm/collection/" },
+            { title: "JVM性能监控", path: "/java/jvm/monitor/" },
           ],
         },
+        {
+          title: "集合",
+          collapsable: true,
+          children: [{ title: "集合", path: "/java/collect/" }],
+        },
       ],
-    },*/
+    },
     lastUpdated: "Last Updated",
   },
   plugins: [
