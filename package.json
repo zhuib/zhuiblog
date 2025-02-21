@@ -13,5 +13,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
   }
 }
