@@ -69,6 +69,15 @@ module.exports = {
           children: [{ title: "集合", path: "/java/collect/" }],
         },
       ],
+      "面试题": [
+        {
+          title: "Java 面试",
+          collapsable: true,
+          children: [
+            { title: "Java 面试", path: "/mianshi/" }
+          ],
+        },
+      ]
     },
     lastUpdated: "Last Updated",
   },

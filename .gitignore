@@ -42,3 +42,4 @@ target
 docs/dist
 build
 dist
+.vuepress
