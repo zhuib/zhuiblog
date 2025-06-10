@@ -621,7 +621,7 @@ public class ProductSync {
             connector.disconnect();
         }
     }
-
+  
     private static void processCanalEntries(List<CanalEntry.Entry> entryList) throws IOException {
         RestHighLevelClient client = new RestHighLevelClient(
                 RestClient.builder(new HttpHost(ES_HOST, ES_PORT, "http")));
