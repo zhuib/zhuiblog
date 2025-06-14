@@ -68,6 +68,16 @@ module.exports = {
           collapsable: true,
           children: [{ title: "集合", path: "/java/collect/" }],
         },
+        {
+          title: "es同步",
+          collapsable: true,
+          children: [{ title: "产品数据同步到 Elasticsearch 实现方案", path: "/java/sync_to_es/" }],
+        },
+            {
+          title: "二阶段提交",
+          collapsable: true,
+          children: [{ title: "TCC", path: "/java/two_sphare_commit/" }],
+        },
       ],
       "面试题": [
         {
