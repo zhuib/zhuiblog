@@ -90,6 +90,13 @@ module.exports = {
             { title: "Java 面试", path: "/mianshi/" }
           ],
         },
+         {
+          title: "场景题",
+          collapsable: true,
+          children: [
+            { title: "场景题", path: "/mianshi/" }
+          ],
+        },
       ]
     },
     lastUpdated: "Last Updated",
