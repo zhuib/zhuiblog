@@ -1,36 +1,94 @@
 # zhuiblog
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+## Project Introduction
 
-#### Software Architecture
-Software architecture description
+zhuiblog is a personal technical blog built with VuePress, used for recording life and sharing knowledge.
 
-#### Installation
+## Technology Stack
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- **Framework**: VuePress 1.x
+- **Theme**: vuepress-theme-reco
+- **Plugins**:
+  - @vuepress-reco/vuepress-plugin-pagation (pagination feature)
+  - @vuepress/plugin-pwa (progressive web application)
+  - @vuepress/plugin-search (search feature)
 
-#### Instructions
+## Features
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- ✅ Simplicity First: Markdown-centered project structure, focusing on writing
+- ✅ Vue-driven: Use Vue components in Markdown, support custom themes
+- ✅ High Performance: Pre-render static HTML, run as SPA when pages are loaded
+- ✅ PWA Support: Offline access, improved user experience
+- ✅ Search Function: Quick content lookup
+- ✅ Pagination Function: Easy browsing of large content
 
-#### Contribution
+## Directory Structure
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+```
+zhuiblog/
+├── docs/             # Documentation directory
+│   ├── MySQL/        # MySQL related documents
+│   ├── about/        # About related content
+│   ├── fontend/      # Frontend related content
+│   ├── java/         # Java related content
+│   │   ├── collect/  # Collection related
+│   │   ├── jvm/      # JVM related
+│   │   └── ...
+│   ├── js/           # JavaScript related content
+│   ├── k8s/          # Kubernetes related content
+│   ├── life/         # Life related content
+│   ├── mianshi/      # Interview related content
+│   ├── netty/        # Netty related content
+│   ├── tags/         # Tags related content
+│   ├── technology/   # Technology related content
+│   └── README.md     # Home page configuration
+├── .gitignore
+├── LICENSE
+├── README.en.md      # English README
+├── README.md         # Chinese README
+├── package-lock.json
+├── package.json
+└── setup.sh          # Installation script
+```
 
+## Quick Start
 
-#### Gitee Feature
+### Install Dependencies
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+```bash
+npm install
+```
+
+### Run in Development Mode
+
+```bash
+npm run docs:dev
+```
+
+Then visit http://localhost:8080 to view the blog.
+
+### Build Production Version
+
+```bash
+npm run docs:build
+```
+
+The built files will be generated in the `docs/.vuepress/dist` directory.
+
+## Deployment
+
+1. Build production version: `npm run docs:build`
+2. Deploy the contents of the `docs/.vuepress/dist` directory to a static website hosting service (such as GitHub Pages, Vercel, Netlify, etc.)
+
+## Contribution
+
+Welcome to submit Issues and Pull Requests to improve this project.
+
+## License
+
+MIT License
+
+## Contact
+
+- Blog Address: [zhuiblog](http://localhost:8080) (local development environment)
+- ICP Record: 粤ICP备2023123001号
