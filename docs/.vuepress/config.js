@@ -82,6 +82,15 @@ module.exports = {
           children: [{ title: "TCC", path: "/java/two_sphare_commit/" }],
         },
       ],
+      "/langchain/": [
+        {
+          title: "LangChain学习笔记",
+          collapsable: true,
+          children: [
+            { title: "LangChain学习笔记", path: "/langchain/" },
+          ],
+        },
+      ],
       "面试题": [
         {
           title: "Java 面试",
