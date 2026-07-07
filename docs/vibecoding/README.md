@@ -1,3 +1,14 @@
+---
+title: AI Coding
+date: 2026-07-07 11:15:53
+permalink: /vibecoding/
+categories:
+  - vibecoding
+tags:
+  - AI
+author: zhuib
+---
+
 # AI Coding 零基础实战教程
 
 > 从零开始，用自然语言指挥AI构建真实软件项目
