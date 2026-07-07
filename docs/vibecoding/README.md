@@ -272,7 +272,7 @@ Node.js 是一个让 JavaScript 能在电脑上运行的环境。它是前端开
 4. 安装过程中一路点 **"Next"**（下一步），保持默认选项即可
 5. 最后点 **"Install"** 完成安装
 
-![image-20260513152954061](./images/nodejs下载.png)
+![image-20260513152954061](./images/nodejs-download.png)
 
 > **注意**：安装时请确保勾选了"Add to PATH"选项（默认是勾选的），这样才能在终端中直接使用 `node` 和 `npm` 命令。
 
@@ -1963,7 +1963,7 @@ export ANTHROPIC_BASE_URL="https://open.bigmodel.cn/api/anthropic"
 >
 > **现在GLM的Coding Plan非常抢手，不一定能买到，而且有限额、高峰期翻倍消耗额度。**
 
-![image-20260517192500798](./images/GLM的官网介绍.png)
+![image-20260517192500798](./images/glm-intro.png)
 
 **方式三：通过配置文件（推荐持久化配置）**
 
@@ -2196,15 +2196,15 @@ claude
 
 选择主题：直接按数字即可
 
-![image-20260516034431744](./images/claude code初次启动1.png)
+![image-20260516034431744](./images/claude-code-start-1.png)
 
 按回车继续：
 
-![image-20260516034612309](./images/claude code初次启动2.png)
+![image-20260516034612309](./images/claude-code-start-2.png)
 
 确认目录：回车即可
 
-![claude code初次启动3](./images/claude code初次启动3.png)
+![claude-code-start-3](./images/claude-code-start-3.png)
 
 
 > 提示：DeepSeek 模型名、可用端点和 Claude Code 兼容能力会随官方迭代变化。实际使用前请打开上面的官方文档核对，不要照抄旧教程里的模型名。
@@ -2219,7 +2219,7 @@ Step 4：验证
 
 > 注意： **常见踩坑**：如果你之前使用过 `https://api.deepseek.com/v1`（OpenAI 兼容端点）+ `claude --model deepseek-chat` 的老写法，建议改为 DeepSeek 官方 Claude Code 文档中的 Anthropic 兼容端点 `https://api.deepseek.com/anthropic`。
 
-![image-20260516035445718](./images/claude code初次启动4.png)
+![image-20260516035445718](./images/claude-code-start-4.png)
 
 #### 2.3.4 多模型并存管理：cc-switch 可视化切换工具
 
@@ -3992,11 +3992,11 @@ elif menu == "账目列表":
 streamlit run finance/web.py
 ```
 
-![image-20260517172043821](./images/个人记账助手1.png)
+![image-20260517172043821](./images/accounting-assistant-1.png)
 
 浏览器会自动打开 `http://localhost:8501`。如果没自动打开，手动访问这个地址即可。
 
-![image-20260517172120898](./images/个人记账助手2.png)
+![image-20260517172120898](./images/accounting-assistant-2.png)
 
 你会看到一个完整的 Web 界面：
 
@@ -5438,7 +5438,7 @@ API 设计：18 个接口的请求/响应格式
 实施步骤：按什么顺序开发
 ```
 
-![Mini Mall 规划模式输出截图](./images/电商项目1.png)
+![Mini Mall 规划模式输出截图](./images/ecommerce-project-1.png)
 
 #### 5.1.3 阅读和审核方案
 

@@ -84,10 +84,11 @@ module.exports = {
       ],
       "/langchain/": [
         {
-          title: "LangChain学习笔记",
+          title: "AI学习笔记",
           collapsable: true,
           children: [
             { title: "LangChain学习笔记", path: "/langchain/" },
+            { title: "vibecoding学习笔记", path: "/vibecoding/" },
           ],
         },
       ],
